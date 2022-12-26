@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Reservierung</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="body_reservierung">
+
+	<form method='get' action='weiter.html'>
+		<div  style="background-color: #107009;">
+		<table topmargin="50px" valign="top">
+
+			<tr>
+				<th colspan='2' class="h2_reservierung"> Tragen Sie hier Ihre Daten ein: </th>
+			</tr>
+			<tr>
+				<td rowspan='1'>Name:</td>
+				<td> <input type='text' name='name'> </td>
+			</tr>
+			<td rowspan='1'>Vorname:</td>
+			<td><input type='text' name='vorname'></td>
+			</tr>
+			<tr>
+				<td rowspan='1'>Ihre Fahrt:</td>
+				<td>
+					<select name='Anzahl' size='5'>
+						<option value='1'>Einzelfahrt</option>
+						<option value='2'>Partnerfahrt</option>
+						<option value='3'>Familienfahrt</option>
+						<option value='4'>Einzelfahrt (Kind/ Behinderte)</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan='1'>Tag:</td>
+				<td>
+					<select name='Anzahl' size='1'>
+						<option value='1'>Montag</option>
+						<option value='2'>Dienstag</option>
+						<option value='3'>Mittwoch</option>
+						<option value='4'>Donnerstag</option>
+						<option value='6'>Samstag</option>
+						<option value='7'>Sonntag</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan='1'>Uhrzeit:</td>
+				<td>
+                    <input type=time min="06:00" max="18:00">
+				</td>
+			</tr>
+			<tr>
+				<td rowspan='1'>Email-Adresse:</td>
+				<td> <input type='email' name='Email-Adresse'></td>
+			</tr>
+			<tr>
+				<td align='center' colspan='2'><input type='submit' name='Knopf' value='Absenden'></td>
+			</tr>
+		</table>
+	</div>
+	</form>
+
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+.h2_reservierung {
+  background-color: #FF0000;
+  text-align: center;
+  font-size: 30px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /*display: flex; */
+  text-align: center;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF0000;
+  padding-bottom: 40px;
+}
+
+.body_navi {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding-top: 50px;
+}
+
+.body_reservierung {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+#Oeffnungszeiten {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#Preise {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#Ueberuns {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.center_table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  padding-top: 30px;
+  font-size: 40px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-color: cadetblue;
+}
+
+.Unterpunkt {
+  font-size: 13px;
+}
+
+.Title_above_Wallpaper {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 70px;
+}
+
+td,
+th {
+  padding: 15px 45px;
+}
+
+th {
+  border-radius: 15px;
+  background-color: #FF0000;
+}
+
+table {
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 2px;
+}
+
+/* CSS */
+.submit_button {
+  background: #107009;
+  border-radius: 999px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 18px;
+  width: fit-content;
+  border: 0;
+  margin-top: 20px;
+}
